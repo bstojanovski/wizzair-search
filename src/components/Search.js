@@ -12,7 +12,7 @@ class Search extends React.Component {
     }
   
     componentDidMount() {
-      fetch("/9.19.2/Api/search/timetable", {
+      fetch("/9.20.0/Api/search/timetable", {
         method: 'POST',
         headers: {
             'Content-Type': "application/json"
